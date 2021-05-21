@@ -1,0 +1,40 @@
+.GameContent {
+  padding: 0px 32px 32px 32px;
+  max-width: 1024px;
+  margin: auto;
+}
+
+.GameContent h4 {
+  color: #333333;
+  margin: 1.5em 0;
+}
+
+.GameContent p {
+  line-height: 1.5em;
+}
+
+.GameContentDetails {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.GameContentDetails div {
+  width: 25%;
+  padding-right: 16px;
+}
+
+@media (max-width: 1024px) {
+  .GameContentDetails div {
+    width: 50%;
+  }
+}
+
+@media (max-width: 480px) {
+  .GameContentDetails div {
+    width: 100%;
+  }
+}
+
+.GameContentDetails p {
+  margin: 0;
+}

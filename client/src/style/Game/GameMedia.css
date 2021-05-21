@@ -1,0 +1,32 @@
+.GameMedia {
+  padding: 16px 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  height: calc(23.8vw * (9 / 16));
+}
+
+@media (max-width: 768px) {
+  .swiper-container {
+    height: calc(45.875vw * (9 / 16));
+  }
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.swiper-slide {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

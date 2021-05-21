@@ -1,0 +1,21 @@
+.Landing {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Landing input {
+  min-width: fit-content;
+  outline: none;
+  width: 30vw;
+  padding: 15px;
+  border: 0px;
+  background-color: #e6e6e6;
+  font-weight: 500;
+  border-radius: 9999px;
+  box-shadow: 0 0 4px 1px #e6e6e6;
+  text-align: center;
+  text-overflow: ellipsis;
+}
