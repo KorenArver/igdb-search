@@ -1,6 +1,6 @@
 # igdb-search
 
-IGDB Search is a small app that allow the user to search for a video game and get information about it on a single page.
+IGDB Search is a small app that allows the user to search for a video game and get information about it on a single page.
 
 ## Motivation
 
@@ -24,7 +24,7 @@ A live demo will be available here soon...
 
 If you want to clone the project and run it on your own (localhost), you have to know that the application requires some secret account values related to the [IGDB API](https://www.igdb.com/api) which is required to make the app work. Of course, I didn't leave mine on the repository so if you want to use it with your own values, here's how to do :
 
-- Follow the instructions [here](https://api-docs.igdb.com/#about) to create an account
+- Follow the instructions [here](https://api-docs.igdb.com/#about) to create an account and authenticate.
 - Create a file named `.env` in the `server/` folder and fill it with the following (and the relevant replacements):
 
 ```
