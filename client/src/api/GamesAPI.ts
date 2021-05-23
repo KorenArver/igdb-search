@@ -10,7 +10,10 @@ export async function searchGame(
   searchInput: string,
   cancelToken: CancelToken
 ): Promise<AxiosResponse<{ id: number; name: string }[]>> {
-  return axios.get(`/games/search/${searchInput}`, { cancelToken: cancelToken })
+  return axios.get(
+    `https://igdb-search.herokuapp.com/games/search/${searchInput}`,
+    { cancelToken: cancelToken }
+  )
 }
 
 /**
@@ -63,7 +66,10 @@ export async function getGameRelevantData(
     }[]
   >
 > {
-  return axios.get(`/games/${gameId}/relevantInfo`, {
-    cancelToken: cancelToken,
-  })
+  return axios.get(
+    `https://igdb-search.herokuapp.com/games/${gameId}/relevantInfo`,
+    {
+      cancelToken: cancelToken,
+    }
+  )
 }
