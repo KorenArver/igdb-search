@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e78e5eba.chunk.css",
+    "main.js": "/static/js/main.0a2e0639.chunk.js",
+    "main.js.map": "/static/js/main.0a2e0639.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a06e69b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a06e69b5.js.map",
+    "static/css/2.0e0b97f1.chunk.css": "/static/css/2.0e0b97f1.chunk.css",
+    "static/js/2.62816fb8.chunk.js": "/static/js/2.62816fb8.chunk.js",
+    "static/js/2.62816fb8.chunk.js.map": "/static/js/2.62816fb8.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0e0b97f1.chunk.css.map": "/static/css/2.0e0b97f1.chunk.css.map",
+    "static/css/main.e78e5eba.chunk.css.map": "/static/css/main.e78e5eba.chunk.css.map",
+    "static/js/2.62816fb8.chunk.js.LICENSE.txt": "/static/js/2.62816fb8.chunk.js.LICENSE.txt",
+    "static/media/androidLogo.93003ad1.svg": "/static/media/androidLogo.93003ad1.svg",
+    "static/media/iOSLogo.410cc8fe.svg": "/static/media/iOSLogo.410cc8fe.svg",
+    "static/media/leftArrow.6b29b10c.svg": "/static/media/leftArrow.6b29b10c.svg",
+    "static/media/linuxLogo.65a5d2be.svg": "/static/media/linuxLogo.65a5d2be.svg",
+    "static/media/macLogo.5c1789f5.svg": "/static/media/macLogo.5c1789f5.svg",
+    "static/media/nintendoSwitchLogo.4e6c5c1d.svg": "/static/media/nintendoSwitchLogo.4e6c5c1d.svg",
+    "static/media/playstationLogo.d1941941.svg": "/static/media/playstationLogo.d1941941.svg",
+    "static/media/searchIcon.518d9536.svg": "/static/media/searchIcon.518d9536.svg",
+    "static/media/stadiaLogo.d68715b3.svg": "/static/media/stadiaLogo.d68715b3.svg",
+    "static/media/windowsLogo.0debd84f.svg": "/static/media/windowsLogo.0debd84f.svg",
+    "static/media/windowsPhoneLogo.d77e6762.svg": "/static/media/windowsPhoneLogo.d77e6762.svg",
+    "static/media/xboxLogo.f8d6809e.svg": "/static/media/xboxLogo.f8d6809e.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a06e69b5.js",
+    "static/css/2.0e0b97f1.chunk.css",
+    "static/js/2.62816fb8.chunk.js",
+    "static/css/main.e78e5eba.chunk.css",
+    "static/js/main.0a2e0639.chunk.js"
+  ]
+}
