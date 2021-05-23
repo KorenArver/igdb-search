@@ -47,5 +47,5 @@
   "devDependencies": {
     "@types/react-router-dom": "^5.1.7"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "https://igdb-search.herokuapp.com"
 }
