@@ -2,6 +2,8 @@
 
 IGDB Search is a small app that allows the user to search for a video game and get information about it on a single page.
 
+![igdb-search-screen](https://user-images.githubusercontent.com/68803613/119264727-944ddb00-bbe4-11eb-8292-66c617103fa7.PNG)
+
 ## Motivation
 
 This app was built to learn how to make a react app including the front-end (`client/` folder) and the back-end (`server/` folder) as well as using an API to fetch data.
@@ -15,6 +17,7 @@ This app was built to learn how to make a react app including the front-end (`cl
 - [NodeJS](https://nodejs.org/en/)
 - [ExpressJS](https://expressjs.com/fr/)
 - [SwiperJS](https://swiperjs.com/)
+- [IGDB API](https://www.igdb.com/api)
 
 <b>Deployment</b>
 
