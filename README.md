@@ -8,7 +8,7 @@ This app was built to learn how to make a react app including the front-end (`cl
 
 ## Libraries and Technologies
 
-<b>Built with</b>
+<b>Development</b>
 
 - [Typescript](https://www.typescriptlang.org/)
 - [React](https://fr.reactjs.org/)
@@ -16,30 +16,18 @@ This app was built to learn how to make a react app including the front-end (`cl
 - [ExpressJS](https://expressjs.com/fr/)
 - [SwiperJS](https://swiperjs.com/)
 
-I also wanted to test [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to make my own opinion about these tools.
+<b>Deployment</b>
+
+- [Netlify](https://www.netlify.com/) (front-end)
+- [Heroku](https://www.heroku.com/) (back-end)
+
+I also wanted to test [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/) to make my own opinion about these tools. Note that ESLint has been removed from the repository now.
 
 ## Usage
 
-A live demo will be available here soon...
+The application is available [here](https://igdb-search.netlify.app)
 
-If you want to clone the project and run it on your own (localhost), you have to know that the application requires some secret account values related to the [IGDB API](https://www.igdb.com/api) which is required to make the app work. Of course, I didn't leave mine on the repository so if you want to use it with your own values, here's how to do :
+If you want to clone the project and run it on your own (localhost), you have to know that the application hosted here has not been made easier to use in that way yet because the server is currently accepting only the requests coming from the hosted app above.
+If you really want to do so, it's not hard but you'll have to modify some values on both client and server sides to make it work from local addresses.
 
-- Follow the instructions [here](https://api-docs.igdb.com/#about) to create an account and authenticate.
-- Create a file named `.env` in the `server/` folder and fill it with the following (and the relevant replacements):
-
-```
-IGDB_CLIENT_ID = [YOUR_CLIENT_ID]
-IGDB_ACCESS_TOKEN = [YOUR_ACCESS_TOKEN]
-```
-
-- At first time, you'll need to install the required dependencies from the `client/`, the `server/` and the root folder with:
-
-```
-npm install
-```
-
-- Now, you should be able to launch the app from the root folder with:
-
-```
-npm run dev
-```
+It may be fixed later and some description will be added here to reuse it easily.
